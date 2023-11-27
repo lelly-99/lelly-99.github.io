@@ -106,18 +106,30 @@ header a:hover {
   background-color: rgba(255, 255, 255, 0.1);
   transform: translateY(
     -5px
-  ); /* Add translation on hover for elevation effect */
+  ); 
 }
-
-/* Updated style for project links */
 .project a {
-  color: cyan; /* Set text color to cyan */
-  text-decoration: none; /* Remove underline for all link states */
+  color: cyan; 
   transition: color 0.3s;
 }
 
-/* Add style for link hover */
 .project a:hover {
-  color: white; /* Change color on hover */
-  text-decoration: none; /* Remove underline on hover */
+  color: white; 
+  text-decoration: none; 
+}
+
+h2 {
+  text-align: center;
+}
+
+
+span {
+  margin: 20px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.link {
+  margin-right: 30px;
+  text-decoration: none;
 }
