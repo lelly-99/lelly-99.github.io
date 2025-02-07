@@ -115,3 +115,29 @@ body {
 hr {
   color: cyan;
 }
+
+.project-card {
+  height: 100%;
+  transition: transform 0.3s ease;
+  border: 1px solid cyan;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.project-links a {
+  flex: 0 0 48%;
+  text-decoration: none;
+}
+
+.btn-outline-info:hover {
+  background-color: cyan;
+}
