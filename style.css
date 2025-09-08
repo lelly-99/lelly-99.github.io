@@ -11,12 +11,7 @@
     .text { color: whitesmoke; }
 
     /* Navbar */
-    .navbar {
-      padding: 15px 30px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.7);
-    }
-    .navbar-brand { font-weight: bold; font-size: 1.3rem; }
-    .navbar-nav > li { margin-left: 25px; cursor: pointer; }
+    .navbar-nav > li { margin-left: 30px; margin-right:30px; cursor: pointer; }
     .custom-nav:hover { color: cyan; transform: scale(1.15); }
 
     /* About Section */
@@ -79,6 +74,7 @@
     footer a { color: cyan; margin: 0 10px; font-size: 20px; }
     footer a:hover { color: whitesmoke; }
   
+
 
 
 
