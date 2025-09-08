@@ -1,235 +1,159 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Belleza"
-      rel="stylesheet"
-    />
-    <link href='https://fonts.googleapis.com/css?family=Fira Code' rel='stylesheet'> 
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand text" href="#">Lelly's Portfolio</a>
-        </div>
-        <ul class="navbar-nav nav">
-          <li class="nav-item active custom-nav"><span class="hash">#</span>About Me</li>
-          <li class="nav-item custom-nav"><span class="hash">#</span>Projects</li>
-          <li class="nav-item custom-nav"><span class="hash">#</span>Contact</li>
-        </ul>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lelly's Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Belleza" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code" rel="stylesheet"/> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Lelly's Portfolio</a>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link custom-nav" href="#about">#About Me</a></li>
+        <li class="nav-item"><a class="nav-link custom-nav" href="#projects">#Projects</a></li>
+        <li class="nav-item"><a class="nav-link custom-nav" href="#contact">#Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main -->
   <main class="container">
-<section class="about-me">
-  <div class="row">
-    <div class="col-6">
-      <h4 class="text">I am a <span class="hash"><span class="word">F</span><span class="word">u</span><span class="word">l</span><span class="word">l</span><span class="word">-</span><span class="word">S</span><span class="word">t</span><span class="word">a</span><span class="word">c</span><span class="word">k</span>
-        <span class="word">D</span><span class="word">e</span><span class="word">v</span><span class="word">e</span><span class="word">l</span><span class="word">o</span><span class="word">p</span><span class="word">e</span><span class="word">r</span>
-      </span></h4>
-      <div>
-        I specialize in building innovative web applications that seamlessly merge cutting-edge technology with creative solutions, crafting impactful digital experiences that drive engagement and elevate user satisfaction.
-      </div>
-    <br>
-    <div class="icons">
-      <a href="https://github.com/lelly-99" target="_blank"><i class="fa fa-github text"></i></a>
-      <a href="https://www.linkedin.com/in/progress-lefsifi-4b4257189/" target="_blank"
-        ><i class="fa fa-linkedin text"></i
-      ></a>
-    </div>
-    <br>
-    <button class="btn" style="border-color: cyan;">
-      <a href="https://docs.google.com/document/d/1hWasQ-_qGJdMTI1aWT3NW9cYSq22odhw/edit#heading=h.gjdgxs" target="_blank" class="btn text" 
-      ><span class="cv">Check my out CV<i class="fa fa-file-o"></i
-    ></span></a>
-    </button>
-    </div>
-    <div class="col-6">
-      <div class="image-container">
-        <img src="PHOTO-2024-11-09-15-40-06.png" alt="" srcset="">
-      </div>
-    </div>
-  </div>
-  
-  <hr>
-  <br>
-  <div class="row">
-  <div class="col">
-    <h4><span class="hash">#</span>Tech Stack</h4>
-    <br>
-    <div class="card mb-3">
-      <div class="card-body">
-        <h6 class="">Languages</h6>
-        <hr>
-        <span class="card-text">JavaScript</span>
-        <span class="card-text">TypeScript</span>
-          <span class="card-text">Python</span>
-        <span class="card-text">HTML</span>
-        <span class="card-text">SQL</span>
-        <span class="card-text">CSS</span>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <div class="card-body">
-        <h6 class="">Databases</h6>
-        <hr>
-        <span class="card-text">ElephantSQL</span>
-        <span class="card-text">MongoDB</span>
-        <span class="card-text">PostgreSQL</span>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <div class="card-body">
-        <h6 class="">Frameworks</h6>
-        <hr>
-        <span class="card-text">NodeJS</span>
-        <span class="card-text">ExpressJS</span>
-        <span class="card-text">MochaJS</span>
-        <span class="card-text">AlpineJS</span>
-        <span class="card-text">HandlebarsJS</span>
-        <span class="card-text">React</span>
-      </div>
-    </div>
-<div class="card mb-3">
-  <div class="card-body">
-    <h6 class="">CSS Frameworks/Preprocessors</h6>
-    <hr>
-    <span class="card-text">Bootstrap</span>
-    <span class="card-text">CSS Grid</span>
-    <span class="card-text">Flexbox</span>
-  </div>
-</div>
-    <div class="card mb-3">
-      <div class="card-body">
-        <h6 class="">API Tools</h6>
-        <hr>
-        <span class="card-text">Postman</span>
-        <span class="card-text">Rest API</span>
-        <span class="card-text">AJAX</span>
-        <span class="card-text">JWKs</span>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <div class="card-body">
-        <h6 class="">Other skills and tools</h6>
-        <hr>
-        <span class="card-text">Github</span>
-        <span class="card-text">Git</span>
-        <span class="card-text">Figma</span>
-        <span class="card-text">Canva</span>
-        <span class="card-text">Jira</span>
-        <span class="card-text">Agile Practices</span>
-        <span class="card-text">Continuous Integration</span>
-        <span class="card-text">API Testing and Automation</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <p>Progress Lefsifi (also known as Lelly)! As a Full-Stack Developer, I specialize in creating dynamic, user-centric web apps that bring ideas to life. With a solid foundation in both frontend and backend technologies, I design and develop responsive websites and applications that deliver an exceptional user experience across all devices.</p>
-    <p>I have experience working with modern JavaScript technologies such as React for the frontend and Express.js, PostgreSQL, and MongoDB for the backend, allowing me to build scalable and efficient solutions. Whether it's implementing intuitive UI components or optimizing server-side performance, I focus on writing clean, maintainable code that’s easy to scale.</p>
-    <p>My journey into web development began during my undergrad studies in Agribusiness Management, where I developed a strong analytical mindset and problem-solving skills. After completing my degree, I realized my passion for technology and began exploring software development. This led me to attend the Full-Stack Agile Web Development Bootcamp at Project codeX, where I honed my skills in both full-stack development, with a focus on Agile methodologies and Test-Driven Development.</p>
-    <p>What excites me most about web development is the ability to blend creativity with technical problem-solving. From designing sleek interfaces to building powerful APIs, I enjoy every aspect of the development process. I’m also committed to continuous learning and staying updated with the latest trends and best practices in the industry.</p>
-    <p>If you're looking for a developer who’s passionate about delivering high-quality solutions and has a strong eye for detail, let's connect and explore how I can help bring your ideas to life!</p>
-      </div>
-</div>
-</section>
-<br>
-
-</section>
-<section class="Projects">
-  <h5><span class="hash">#</span>Projects</h5>
-  <hr>
-  <div class="row">
-    <!-- Project 1 -->
-    <div class="col-md-4 mb-4">
-      <div class="card project-card">
-        <div class="card-body">
-          <h5 class="card-title text">IELTS Simulator App</h5>
-          <span class="in-progress"> In Progress</span>
-          <p class="card-text">
-            A comprehensive IELTS preparation platform designed to help students practice and improve their English language skills.
-          </p>
-          <div class="project-links">
-            <a href="https://github.com/lelly-99/ielts_app" target="_blank" class="btn btn-outline-info">
-              <i class="fa fa-github"></i> Github
-            </a>
-            <a href="https://ielts-app-q7x9.onrender.com" target="_blank" class="btn btn-outline-info">
-              <i class="fa fa-external-link"></i> Live Demo
-            </a>
+    <!-- About Section -->
+    <section id="about" class="about-me">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h4 class="text">I am a <span class="hash">Full-Stack Developer</span></h4>
+          <p>I specialize in building innovative web and AI-powered applications that merge cutting-edge technology with creative problem-solving. From cloud-based architectures to front-end design, I craft digital experiences that scale and engage users.</p>
+          <div class="icons">
+            <a href="https://github.com/lelly-99" target="_blank"><i class="fab fa-github text"></i></a>
+            <a href="https://www.linkedin.com/in/progress-lefsifi-4b4257189/" target="_blank"><i class="fab fa-linkedin text"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <div class="image-container">
+            <img src="PHOTO-2024-11-09-15-40-06.png" alt="Profile Photo">
           </div>
         </div>
       </div>
-    </div>
+      <hr>
+      <h4><span class="hash">#</span>Tech Stack</h4>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-3"><div class="card-body">
+            <h6>Full-Stack Development</h6><hr>
+            <span>ReactJS</span><span>Node.js</span><span>REST APIs</span><span>Webhooks</span>
+          </div></div>
+          <div class="card mb-3"><div class="card-body">
+            <h6>Databases</h6><hr>
+            <span>PostgreSQL</span><span>Supabase</span><span>Firebase</span><span>Vector Store</span>
+          </div></div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-3"><div class="card-body">
+            <h6>Cloud & DevOps</h6><hr>
+            <span>Google Cloud Run</span><span>Docker</span><span>GitHub Actions</span>
+          </div></div>
+          <div class="card mb-3"><div class="card-body">
+            <h6>Other Tools</h6><hr>
+            <span>Git</span><span>Figma</span><span>Jira</span><span>Agile Practices</span>
+          </div></div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Project 2 -->
-    <div class="col-md-4 mb-4">
-      <div class="card project-card">
-        <div class="card-body">
-          <h5 class="card-title text">Waiter Availability</h5>
-          <p class="card-text"> A web application that streamlines restaurant staff scheduling by managing waiter availability for different days of the week.</p>
-          <div class="project-links">
-            <a href="https://github.com/lelly-99/waiter_webapp" target="_blank" class="btn btn-outline-info">
-              <i class="fa fa-github"></i> Github
-            </a>
-            <a href="https://lelly-99-waiter-webapp.onrender.com/" target="_blank" class="btn btn-outline-info">
-              <i class="fa fa-external-link"></i> Live Demo
-            </a>
+    <!-- Projects Section -->
+    <section id="projects" class="Projects">
+      <h5><span class="hash">#</span>Projects</h5>
+      <hr>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <div class="card-body">
+              <h5 class="card-title text">IELTS Simulator App</h5>
+              <span class="in-progress">In Progress</span>
+              <p>A comprehensive IELTS preparation platform with real-time practice tests.</p>
+              <div class="project-links">
+                <a href="https://github.com/lelly-99/ielts_app" target="_blank" class="btn btn-outline-info"><i class="fab fa-github"></i> Github</a>
+                <a href="https://ielts-app-q7x9.onrender.com" target="_blank" class="btn btn-outline-info"><i class="fa fa-external-link"></i> Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <div class="card-body">
+              <h5 class="card-title text">Waiter Availability</h5>
+              <p>Manages restaurant staff scheduling with waiter availability tracking.</p>
+              <div class="project-links">
+                <a href="https://github.com/lelly-99/waiter_webapp" target="_blank" class="btn btn-outline-info"><i class="fab fa-github"></i> Github</a>
+                <a href="https://lelly-99-waiter-webapp.onrender.com/" target="_blank" class="btn btn-outline-info"><i class="fa fa-external-link"></i> Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <div class="card-body">
+              <h5 class="card-title text">Phone Bill Calculator</h5>
+              <p>An interactive calculator for call/SMS costs with configurable settings.</p>
+              <div class="project-links">
+                <a href="https://github.com/lelly-99/settings-bill-expressJS" target="_blank" class="btn btn-outline-info"><i class="fab fa-github"></i> Github</a>
+                <a href="https://lelly-99-settings-bill-expressjs.onrender.com/" target="_blank" class="btn btn-outline-info"><i class="fa fa-external-link"></i> Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4 (New Gym App) -->
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <div class="card-body">
+              <h5 class="card-title text">Gym App</h5>
+              <p>A fitness web app where users scan QR codes on equipment to see exercises and targeted muscle areas.</p>
+              <div class="project-links">
+                <a href="https://github.com/lelly-99/gym-app" target="_blank" class="btn btn-outline-info"><i class="fab fa-github"></i> Github</a>
+                <a href="#" target="_blank" class="btn btn-outline-info"><i class="fa fa-external-link"></i> Demo</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Project 3 -->
-    <div class="col-md-4 mb-4">
-      <div class="card project-card">
-        <div class="card-body">
-          <h5 class="card-title text">Phone Bill Calculator</h5>
-          <p class="card-text">   An interactive phone bill calculator that helps users track and manage their call and SMS costs with configurable settings.</p>
-          <div class="project-links">
-            <a href="https://github.com/lelly-99/settings-bill-expressJS" target="_blank" class="btn btn-outline-info">
-              <i class="fa fa-github"></i> Github
-            </a>
-            <a href="https://lelly-99-settings-bill-expressjs.onrender.com/" target="_blank" class="btn btn-outline-info">
-              <i class="fa fa-external-link"></i> Live Demo
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<hr>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h5><span class="hash">#</span>Contact</h5>
+      <hr>
+      <p>Let’s connect! Reach me via email or LinkedIn for collaborations and opportunities.</p>
+      <p>
+        <a href="mailto:your@email.com" class="btn btn-outline-info"><i class="fa fa-envelope"></i> Email</a>
+        <a href="https://www.linkedin.com/in/progress-lefsifi-4b4257189/" target="_blank" class="btn btn-outline-info"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </p>
+    </section>
   </main>
-<footer>
-  <p>Made with ❤️ by Progress Lefsifi</p>
-  <p>
-    <a href="mailto:your@email.com"><i class="fa fa-envelope"></i></a>
-    <a href="https://github.com/lelly-99"><i class="fa fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/progress-lefsifi-4b4257189/"><i class="fa fa-linkedin"></i></a>
-  </p>
-</footer>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with ❤️ by Progress "Lelly" Lefsifi</p>
+    <p>
+      <a href="https://github.com/lelly-99" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/progress-lefsifi-4b4257189/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:your@email.com"><i class="fa fa-envelope"></i></a>
+    </p>
+  </footer>
+</body>
 </html>
-<script>
-  document.querySelectorAll('.custom-nav').forEach(item => {
-    item.addEventListener('click', () => {
-      const section = item.textContent.trim().toLowerCase().replace(" ", "-");
-      const target = document.querySelector(`.${section}`);
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth" });
-      }
-    });
-  });
-</script>
+
+
 
 
